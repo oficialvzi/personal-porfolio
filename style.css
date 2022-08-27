@@ -1,0 +1,61 @@
+*{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+
+:root{
+    --hue: 198;
+    --bgcolor: #012030;
+    --main:hsla(var(--hue), 76%, 31%);
+    --light:hsla(var(--hue), 76%, 45%);
+    --dark:hsla(var(--hue), 76%, 15%);
+    --hover:hsla(var(--hue), 38%, 70%);
+    --robotomono: 'Roboto Mono', monospace;
+
+}
+
+.brand-logo {
+    padding-left: 12px !important;
+    font-weight: bold;
+}
+
+.dropdown-content {
+    width: max-content !important;
+    height: auto !important;
+}
+
+body.dark{
+    background-color: var(--bgcolor);
+}
+
+.oi{
+    font-weight: bold;
+    color: var(--light);
+}
+
+i{
+    color: var(--light);
+    font-size: 50px;
+    height: 75px;
+}
+
+.icons{
+    margin-top: 20vh;
+}
+
+h3.oi{
+    text-align: center;
+}
+
+.home-content{
+    color: whitesmoke;
+}
+
+aside img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20%;
+}

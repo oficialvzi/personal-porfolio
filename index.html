@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur Choi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Icons script -->
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <!-- Materialize -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body class="dark">
+    <header>
+    <!-- Dropdown Mobile -->
+    <ul id="mobile-navbar" class="sidenav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="skills.html">Skills</a></li>
+
+    </ul>
+
+    <!-- Dropdown Desktop -->
+    <div class="navbar-fixed" >
+        <nav style="background-color: var(--dark)">
+            <div>
+                <!-- Mobile Icon -->
+                <a href="" data-target="mobile-navbar" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
+
+                <a href="#!" class="brand-logo">Arthur Choi</a>
+                <ul class="right hide-on-med-and-down" id="arrow1">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    </header>
+    <main>
+    <!-- Home -->
+    <div class="row section" id="home">
+        <div class="col s12 m4 l2 center icons">
+            <a href="https://www.linkedin.com/in/arthurchoibraga/" target="_blank"><i class="ph-linkedin-logo"></i></a><br>
+            <a href="https://www.github.com/oficialvzi" target="_blank"><i class="ph-github-logo"></i></a>
+        </div>
+        <div class="col s12 m8 l10">
+            <div class="row">
+                <div class="col s12 m6 l8">
+                    <h2 class="oi">Hi, I'm Arthur</h1>
+                    <h4 class="home-content">A junior developer :)</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore omnis iure facere nulla, natus itaque odio explicabo veritatis vel perspiciatis, eum odit aliquam laboriosam impedit voluptatem, quis porro aut? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi nam aperiam ex nobis ad. Exercitationem, provident. Labore porro, unde suscipit fugit, culpa possimus dolorem sapiente impedit natus laboriosam, molestiae fuga.</p>
+                </div>
+                <div class="col s12 m6 l4">
+                    <aside><img src="/IMG-20220416-WA0003.jpeg" alt=""></aside>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About me -->
+    <div class="section" id="aboutme">
+        <div class="container">
+            <h3 class="oi">About me</h2>
+        </div>
+
+    </div>
+    
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
