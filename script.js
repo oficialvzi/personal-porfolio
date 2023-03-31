@@ -6,11 +6,3 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 });
 
-$(window).scroll(function () {
-    //You've scrolled this much:
-    if ($(window).scrollTop() > 100) {
-        $('.brand-logo').css('opacity', '1'); 
-    }else if ($(window).scrollTop() < 100) {
-        $('.brand-logo').css('opacity', '0'); 
-    }
-});

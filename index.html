@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arthur Choi</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
 
     <!-- Icons script -->
     <script src="https://unpkg.com/phosphor-icons"></script>
@@ -19,63 +19,138 @@
 
 <body class="dark">
     <header>
-    <!-- Dropdown Mobile -->
-    <ul id="mobile-navbar" class="sidenav">
-        <li><a href="#home">Home</a></li>
-        <li><a href="aboutme.html">About Me</a></li>
-        <li><a href="skills.html">Skills</a></li>
+        <!-- Dropdown Mobile -->
+        <ul id="mobile-navbar" class="sidenav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#work">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 
-    </ul>
+        <!-- Dropdown Desktop -->
+        <div class="navbar-fixed">
+            <nav style="background-color: var(--dark)">
+                <div>
+                    <!-- Mobile Icon -->
+                    <a href="" data-target="mobile-navbar" class="right sidenav-trigger"><i
+                            class="material-icons">menu</i></a>
 
-    <!-- Dropdown Desktop -->
-    <div class="navbar-fixed" >
-        <nav style="background-color: var(--dark)">
-            <div>
-                <!-- Mobile Icon -->
-                <a href="" data-target="mobile-navbar" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
-
-                <a href="#!" class="brand-logo">Arthur Choi</a>
-                <ul class="right hide-on-med-and-down" id="arrow1">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#aboutme">About Me</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+                    <a href="#!" class="brand-logo">Arthur Choi</a>
+                    <ul class="right hide-on-med-and-down" id="arrow1">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#aboutme">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
     <main>
-    <!-- Home -->
-    <div class="row section" id="home">
-        <div class="col s12 m4 l2 center icons">
-            <a href="https://www.linkedin.com/in/arthurchoibraga/" target="_blank"><i class="ph-linkedin-logo"></i></a><br>
-            <a href="https://www.github.com/oficialvzi" target="_blank"><i class="ph-github-logo"></i></a>
-        </div>
-        <div class="col s12 m8 l10">
-            <div class="row">
-                <div class="col s12 m6 l8">
-                    <h2 class="oi">Hi, I'm Arthur</h1>
-                    <h4 class="home-content">A junior developer :)</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore omnis iure facere nulla, natus itaque odio explicabo veritatis vel perspiciatis, eum odit aliquam laboriosam impedit voluptatem, quis porro aut? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi nam aperiam ex nobis ad. Exercitationem, provident. Labore porro, unde suscipit fugit, culpa possimus dolorem sapiente impedit natus laboriosam, molestiae fuga.</p>
+
+        <!-- Home -->
+        <section class="section">
+            <div class="row section container" id="home">
+                <div class="col s12 m4 l2 center icons">
+                    <a href="https://www.linkedin.com/in/arthurchoibraga/" target="_blank"><i
+                            class="ph-linkedin-logo icons-top"></i></a><br>
+                    <a href="https://www.github.com/oficialvzi" target="_blank"><i
+                            class="ph-github-logo icons-top"></i></a>
                 </div>
-                <div class="col s12 m6 l4">
-                    <aside><img src="/IMG-20220416-WA0003.jpeg" alt=""></aside>
+                <div class="col s12 m8 l10">
+                    <div class="row">
+                        <div class="col s12 m6 l8">
+                            <h1 class="oi">Hi, I'm Arthur</h1>
+                            <h4>A junior developer :)</h4>
+                            <hr class="line">
+                            <p class="home-description">Welcome to my portfolio. I'm excited you've come to visit my
+                                work and
+                                personal projects that i've compiled over the years.</p>
+                        </div>
+                        <div class="col s12 m6 l4" class="container">
+                            <aside><img src="/images/IMG-20220416-WA0003.jpeg" alt="" class="pfp"></aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About me -->
+        <section class="section" id="aboutme">
+            <div class="container">
+                <h3 class="about">About me</h2>
+                    <p class="container about-content">My name is Arthur Choi Braga and I'm a student from Brasília,
+                        Brazil in Grade 12, at School of the Nations. Im a tech enthusiast and love games and
+                        innovation. I love the area of cybersecurity and I have a mission to make Brazil's education
+                        better with the use of technology.</p>
+            </div>
+
+        </section>
+
+        <!-- My skills and work-->
+        <section class="section" id="skills">
+            <div class="container">
+                <h3 class="about">My Skills</h3>
+                <p class="container about-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+                    mollitia a sed
+                    officiis laboriosam? Sunt iusto recusandae quas debitis illo, quo dolor dolore! Quos recusandae
+                    autem enim est?
+                    Maiores, eum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam harum laboriosam
+                    soluta praesentium,
+                    deserunt cumque sint facere, consequatur possimus cum, nisi molestiae voluptatibus aperiam tempore
+                    assumenda
+                    excepturi sapiente expedita similique!</p>
+
+            </div>
+
+        </section>
+
+        <!-- Contact -->
+        <div class="section" id="contact">
+            <div class="container">
+                <h3 class="about">Contact me</h3>
+                <p class="container about-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
+                    soluta et, magni
+                    impedit provident doloribus sit nesciunt voluptatum, ea iste ab deleniti aperiam asperiores
+                    recusandae architecto
+                    ipsum quaerat ad. Neque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus atque
+                    recusandae
+                    corporis reprehenderit, ipsam eum quod, rem reiciendis architecto excepturi omnis dolorem ratione
+                    voluptate
+                    laudantium voluptatibus unde! Quo, quis reprehenderit.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer" id="footer">
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row center">
+                    <div class="col l4 s12">
+                        <p class="copyright">© 2023 by Arthur Choi Braga</p>
+                    </div>
+                    <div class="col l4 s12">
+                        <ul class="icons-footer center">
+                            <a href="https://www.linkedin.com/in/arthurchoibraga/" target="_blank"><i
+                                    class="ph-linkedin-logo"></i></a>
+                            <a href="https://www.github.com/oficialvzi" target="_blank"><i
+                                    class="ph-github-logo"></i></a>
+                            <a href="https://www.instagram.com/ofiicialvzi" target="_blank"><i
+                                    class="ph-instagram-logo"></i></a>
+                        </ul>
+                    </div>
+                    <div class="col l4 s12">
+                        <a class="grey-text text-lighten-4 right footer-text" href="#">Back to the top <i
+                                class="ph ph-arrow-circle-up "></i> </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- About me -->
-    <div class="section" id="aboutme">
-        <div class="container">
-            <h3 class="oi">About me</h2>
-        </div>
+    </footer>
 
-    </div>
-    
-    </main>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </body>
 
 </html>

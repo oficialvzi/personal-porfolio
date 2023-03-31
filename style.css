@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     color: whitesmoke;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -14,6 +15,24 @@
     --hover:hsla(var(--hue), 38%, 70%);
     --robotomono: 'Roboto Mono', monospace;
 
+}
+
+.section{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bgcolor);
+    scroll-margin-top: 150px;
+}
+
+#home{
+    margin-top: 5%;
+}
+
+.oi{
+    font-size: 50px;
+    margin-top: 10%;
 }
 
 .brand-logo {
@@ -30,27 +49,41 @@ body.dark{
     background-color: var(--bgcolor);
 }
 
-.oi{
+.oi, .about{
     font-weight: bold;
     color: var(--light);
 }
 
-i{
-    color: var(--light);
+.icons{
+    margin-top: 20vh;
     font-size: 50px;
     height: 75px;
 }
 
-.icons{
-    margin-top: 20vh;
+.icons-footer{
+    font-size: 30px;
 }
 
-h3.oi{
+#footer{
+    background-color: var(--dark) !important;
+}
+
+.copyright, .footer-text{
+    font-size: 20px;
+}
+
+.icons-top{
+    color: var(--light);
+}
+
+.about{
     text-align: center;
 }
 
-.home-content{
-    color: whitesmoke;
+p.home-description, .about-content{
+    font-size: 25px;
+    display: block;
+    text-align: justify;
 }
 
 aside img {
@@ -58,4 +91,13 @@ aside img {
     width: 100%;
     margin: 0 auto;
     border-radius: 20%;
+    align-items: center;
+    margin-top: 10%;
+}
+
+hr.line{
+    width: 25%;
+    background-color: var(--light);
+    border-color: transparent;
+    margin-bottom: 2%;
 }
